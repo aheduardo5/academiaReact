@@ -1,0 +1,111 @@
+.App {
+  height: 35rem;
+  width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  text-transform: capitalize;
+  transition: 0.5s;
+}
+
+.App span button {
+  color: #fff;
+  width: 6rem;
+  height: 2.5rem;
+  background-color: #4244d4;
+  border-radius: 0.3rem;
+  font-weight: 900;
+}
+
+.App span button:hover {
+  background-color: #6d6edd;
+  color: #ccc4c4;
+  transition: 0.5s;
+}
+
+
+.user-content .user {
+  display: flex;
+  width: 80%;
+  height: 7rem;
+  background-color: #fff;
+  box-shadow: 4px 7px 15px -3px #0000006b;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.user-content .user p {
+  margin-left: 1.5rem;
+  text-align: center;
+}
+
+.user-content .user button {
+  color: #fff;
+  width: 6rem;
+  height: 2.5rem;
+  background-color: #4244d4;
+  border-radius: 0.3rem;
+  font-weight: 900;
+}
+
+
+.user-content .user img {
+  border-radius: 50%;
+  
+}
+
+.user-content .user .email {
+  text-transform: none;
+  
+}
+
+/*
+.UserList {
+  width: 90%;
+  height: 27rem;
+}
+
+.userContent {
+  display: flex;
+  width: 88%;
+  height: 5rem;
+  background-color: #fff;
+  box-shadow: 4px 7px 15px -3px #0000006b;
+  margin-top: 2rem;
+}
+
+.userContent a {
+  display: flex;
+  margin: auto;
+  text-decoration: none;
+}
+.userContent a .imgStatus {
+  height: 2rem;
+  width: 2rem;
+  background-color: #13bb21;
+  border-radius: 50%;
+  margin-right: 1.5rem;
+}
+
+.userAction-content .userActions li {
+  list-style: none;
+  display: inline-block;
+} */
+
+form {
+  width: 80%;
+  padding: 2rem;
+  background-color: #f2f2f2;
+}
+
+form label {
+  display: block;
+}
+
+form input[type=text] {
+  width : 80%;
+  padding: 8px 16px;
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
